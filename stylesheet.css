@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/bg-desktop.svg) no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  margin: 4% 0 0 5%;
+  width: 15%;
+}
+
+.left {
+  width: 40%;
+  float: left;
+  margin: 6% 0 0 5%;
+}
+
+.image {
+  width: 132%;
+}
+
+.right {
+  width: 40%;
+  float: right;
+  margin: 9% 0 0 0;
+}
+
+.heading {
+  padding-right: 25%;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.parg {
+  padding-right: 16%;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.btn {
+  padding: 2.5% 11%;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  color: hsl(257, 40%, 49%);
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  cursor: pointer;
+  color: white;
+}
+
+.icons {
+  position: absolute;
+  top: 115%;
+  left: 82%;
+  display: inline-flex;
+  font-size: 1.7rem;
+  padding-bottom: 3%;
+}
+
+.icons-1 {
+  margin-left: 25%;
+}
+
+.icons-1:hover {
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .body {
+    background-image: url(images/bg-mobile.svg) no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    width: 30%;
+    margin: 7% 0 0 9%;
+  }
+
+  .image {
+    width: 180%;
+  }
+
+  .left {
+    margin: 13% 9% 0 9%;
+  }
+
+  .right {
+    width: 65%;
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .heading {
+    padding-right: 0%;
+    margin: 0;
+  }
+
+  .parg {
+    padding: 0 9% 0 9%;
+  }
+
+  .btn {
+    padding: 2.5% 20%;
+    margin-top: 5%;
+    font-size: 10px;
+  }
+
+  .icons {
+    position: absolute;
+    top: 135%;
+    left: 25%;
+    display: inline-flex;
+    font-size: 1.4rem;
+    padding-bottom: 3%;
+  }
+
+  .icons-1 {
+    margin-left: 20%;
+  }
+}
